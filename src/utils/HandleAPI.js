@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://fullstack-todo-app-backend-1-br2c.onrender.com"; //http://localhost:5001 for local access
+const baseUrl = "https://fullstack-todo-app-backend-2-t2hq.onrender.com"; //http://localhost:5001 for local access
 
 const getAllToDo = (setToDo) => {
   axios.get(baseUrl).then(({ data }) => {
